@@ -71,12 +71,12 @@ Webhook は **LINE Developers の検証** や **グループID取得** のため
 
 メール本文・件名の整形ルールは、以下の配列を編集することで調整できます。
 
-+++js
+```js
 const SUBJECT_DELETE_PATTERNS = ["WORD1 ", "WORD2 "];
 const SUBJECT_DELETE_TO_END_PATTERNS = ["Please add string"];
 const BODY_DELETE_PATTERNS = ["NAME1 ", "NAME2 "];
 const BODY_DELETE_TO_END_PATTERNS = ["━━━━━━━━━━━━━━━━━━", "******************", "------------------", "=================="];
-+++
+```
 
 ※ 書籍の画面例や出力とズレる可能性があるため、慣れるまでは変更しないのがおすすめです。
 
